@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body
+   {
+    color: #333;
+  }
+  
+  /* Style the containers of main layout structure */
+  
+  #main-container
+   {
+    display: flex;
+    background-color: #af5e5e;
+  }
+  
+  #top-header 
+  {
+    background-color: #884343;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #ca8c8c;
+    text-align: center;
+    font-family: Tahoma;
+    font-style: italic;
+    font-size: 2.5rem;
+  }
+  
+  #top-header img 
+  {
+    width: 100%;
+    height: 150px;
+  }
+  
+  #top-menu 
+  {
+    padding: 10px;
+    background-color: #dfb5b5;
+    overflow: hidden;
+  }
+  
+  #top-menu ul
+   {
+    list-style-type: none; /* Remove bullets */
+    float: right;
+  }
+  
+  #top-menu li {
+    float: left;
+  }
+  
+  #top-menu a 
+  {
+    padding: 14px 18px;
+    text-decoration: none; /* Remove underline from text */
+    display: block;
+  }
+  
+  #top-menu a:hover 
+  {
+    background-color: #d15fcb;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  #side-menu
+   {
+    background-color: #d4b8b8;
+    flex: 30%;
+    padding: 5px;
+    height: auto;
+    float: left;
+  }
+  
+  #side-menu a {
+    color: #9c5959;
+    text-align: center;
+    border: 1px solid #666;
+    background-color: #c79595;
+    border-radius: 10px;
+    padding: 5px 0;
+  }
+  
+  #side-menu ul 
+  {
+    list-style-type: none;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    
+  }
+  
+  #side-menu ul li 
+  {
+    background-color: #444;
+    color: #a06969;
+    border: 1px solid #666;
+    border-radius: 10px;
+    
+  }
+  
+  #side-menu ul li a 
+  {
+    display: block;
+    padding: 8px 2px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    margin: 0.2em 0;
+    color: #fff;
+  }
+  
+  #side-menu a:hover 
+  {
+    background-color: #ff00c8;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  #main-content 
+  {
+    background-color: #c58b8b;
+    flex: 50%;
+    padding: 20px;
+    text-transform: uppercase;
+    height: auto;
+    border-radius: 10;
+  }
+  
+  #right-column 
+  {
+    background-color: rgb(224, 190, 195);
+    flex: 25%;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    
+  }
+  
+  #main-footer 
+  {
+    height: auto;
+    text-align: left;
+    color: #ca8c8c;
+    background-color: #ca8c8c;
+    
+  }
+  
+  
